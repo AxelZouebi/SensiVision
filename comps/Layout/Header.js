@@ -3,9 +3,9 @@ import Head from "next/head";
 const Header = () => {
     return ( 
         <Head>
-            <title>Chat with Lucie</title>
-            <meta name="description" content="Lucie vous aider à trouver un cadeau pour la fête des mères" />
-            <link rel="icon" href="/logo_chatbot.png" />
+            <title>Sensivision</title>
+            <meta name="description" content="Festival pour le soutien de la cause animal" />
+            <link rel="icon" href="/Logo.png" />
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         </Head>
      );
