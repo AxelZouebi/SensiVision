@@ -63,7 +63,9 @@ const Navbar = () => {
                 </Page>
                 <Page>
                     <AnchorLink href="#intervenants">
+                    <Page>
                         A propos
+                        </Page>
                     </AnchorLink>
                 </Page>
                 <Page>
