@@ -26,7 +26,7 @@ const Container4_2 = styled(C.Fr_center_center)`
 `
 
 const Text4 = styled.div`
-  text-color: #565656;
+  color: #565656;
   font-size: 22px;
   font-weight: 400;
   text-align: justify;

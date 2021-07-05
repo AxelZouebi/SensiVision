@@ -28,6 +28,7 @@ const UnderTitle1 = styled(T.UnderTitle)`
   -webkit-text-fill-color: transparent;
   background: linear-gradient(90deg, #0B6E4F 0%, #59A96A 100%);
   -webkit-background-clip: text;
+  background-clip: text;
 `
 
 const UnderTitle2 = styled(T.UnderTitle)`
@@ -66,7 +67,7 @@ const Accueil = () => {
     return ( 
         <>
         <Spacer/>
-        <Container1 >
+        <Container1>
         <Container1_1>
             <Title1>
             Sensivision

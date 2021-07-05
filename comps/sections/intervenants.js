@@ -10,7 +10,7 @@ const Container3 = styled(C.Fc_center_center)`
 `
 
 const Container3_1 = styled(C.Fc_center_center)`
-
+  width: 100%;
 `
 
 const Title3 = styled(T.Title)`

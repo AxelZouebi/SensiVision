@@ -123,6 +123,10 @@
   object-fit: cover;
 }
 
+.img_cover {
+  border-radius: 20px 0px 0px 20px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

@@ -53,7 +53,7 @@ const Partenaire = styled(C.Fc_center_center)`
   height: 295px;
   padding: 20px;
   border-radius: 5px;
-  filter: drop-shadow(0px 20px 25px rgba(0,0,0,0.12));
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.12);
 `
 
 const Partenaire_Title5 = styled.div`

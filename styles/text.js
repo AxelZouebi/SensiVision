@@ -1,5 +1,13 @@
 import styled from 'styled-components'
 
+export const Title_Little = styled.div`
+    width: 100%;
+    font-size: calc( 56px + (56 - 56) * (100vw - 400px) / (1900 - 400) );
+    font-weight: 700;
+    text-align: center;
+    color: #565656;
+`
+
 export const Title = styled.div`
     width: 100%;
     font-size: calc( 56px + (76 - 56) * (100vw - 400px) / (1900 - 400) );
