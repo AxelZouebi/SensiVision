@@ -1,4 +1,4 @@
-import Layout from '../comps/Layout/layout.js'
+import Layout from '../comps/Layout/Layout.js'
 import '../styles/globals.css'
 import "../styles/Dog.scss"
 
