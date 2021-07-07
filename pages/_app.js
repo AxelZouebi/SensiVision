@@ -1,5 +1,6 @@
 import Layout from '../comps/Layout/layout.js'
 import '../styles/globals.css'
+import styled from 'styled-components'
 import "../styles/Dog.scss"
 
 

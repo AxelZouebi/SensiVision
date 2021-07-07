@@ -1,7 +1,7 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import * as C from '../../styles/container.js';
-import * as T from "../../styles/text.js"
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import * as T from "../../styles/text.js";
+import Link from 'next/link';
 
 const Container1 = styled(C.Fc_center_center)`
   width: 100%;
@@ -81,9 +81,9 @@ const Accueil = () => {
         </UnderTitle2>
         <Container1_2>
             <Button1>
-              <AnchorLink href="#date">
+              <Link href="#date">
               En savoir plus
-              </AnchorLink>
+              </Link>
             </Button1>
             <Button2>
             Réserver
