@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import * as C from '../../styles/container.js';
-import * as T from "../../styles/text.js"
+import * as C from '../container.js';
+import * as T from "../text.js"
 import Dog from '../animation/dog';
 
 const Container2 = styled(C.Fc_center_center)`

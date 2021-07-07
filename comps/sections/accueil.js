@@ -1,5 +1,5 @@
-import * as C from '../../styles/container.js';
-import * as T from "../../styles/text.js"
+import * as C from '../container.js';
+import * as T from "../text.js"
 import styled from 'styled-components'
 import Link from 'next/link'
 

@@ -2,7 +2,8 @@ import React, { Component, useRef, useEffect } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import * as C from '../../styles/container';
+import * as C from '../container.js';
+import * as T from "../text.js"
 import styled from 'styled-components'
 
 const Container1 = styled(C.Fr_center_center)`
