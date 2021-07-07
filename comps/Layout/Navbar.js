@@ -1,11 +1,9 @@
-import styled from 'styled-components'
 import React, { Component, useRef, useEffect } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import * as C from '../../styles/container';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-
+import styled from 'styled-components'
 
 const Container1 = styled(C.Fr_center_center)`
     width: 100%;
@@ -57,21 +55,21 @@ const Navbar = () => {
             </Container1_1>
             <Container1_2>
                 <Page>
-                    <AnchorLink href="#accueil">
+                    <Link href="#accueil">
                         Accueil
-                    </AnchorLink>
+                    </Link>
                 </Page>
                 <Page>
-                    <AnchorLink href="#intervenants">
+                    <Link href="#intervenants">
                     <Page>
                         A propos
                         </Page>
-                    </AnchorLink>
+                    </Link>
                 </Page>
                 <Page>
-                    <AnchorLink href="#nos_partenaires">
+                    <Link href="#nos_partenaires">
                         Nos partenaires
-                    </AnchorLink>
+                    </Link>
                 </Page>
                 <Link href="/reserver">
                     <Button1>

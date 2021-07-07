@@ -1,7 +1,7 @@
-import styled from 'styled-components'
 import React, { Component } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
+import styled from 'styled-components'
 
 const Ellipse = styled.div`
     position: fixed;
