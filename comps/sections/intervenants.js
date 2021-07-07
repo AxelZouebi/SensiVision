@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import * as C from '../../styles/container.js';
-import * as T from "../../styles/text.js"
+import * as C from '../container';
+import * as T from "../text";
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 
