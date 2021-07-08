@@ -9,7 +9,7 @@ const Container5 = styled(C.Fc_center_center)`
 `
 
 const Container5_1 = styled.div`
-    
+    width: 100%;
 `
 
 const Container5_1_1 = styled.div`
