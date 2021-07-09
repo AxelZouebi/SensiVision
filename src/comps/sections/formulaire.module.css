@@ -1,0 +1,120 @@
+.container1{
+    width: 100%;
+    height: 85vh;
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1_1{
+    width: 20%;
+    height: 85%;
+    background-color: #f4f4f4;
+    border-radius: 20px 0px 0px 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.test1_1{
+    width: 100%;
+    font-size: calc( 56px + (96 - 56) * (100vw - 400px) / (1900 - 400) );
+    font-weight: 700;
+    text-align: center;
+    color: #565656;
+}
+
+.container1_2{
+    width: 30%;
+    height: 85%;
+    background-color: #f4f4f4;
+    border-radius: 0px 20px 20px 0px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container1_2_1{
+    width: 80%;
+    height: 75%;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1_2_1{
+    color: #565656;
+    font-size: calc( 20px + (20 - 16) * (100vw - 400px) / (800 - 400) );
+    font-weight: 400;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container1_2_1_1{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.text1_2_1_1{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.input{
+    background-color: rgba(1, 1, 1, .3);
+    color: white;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    border-radius: 3px;
+    width: 100%;
+    transition: width .3s;
+}
+
+.container1_2_2{
+    width: 80%;
+    height: 15%;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button1_2{
+    text-align: center;
+    background: #11544D;
+    color: #FEFCAD;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.img_cover {
+    border-radius: 20px 0px 0px 20px;
+  }

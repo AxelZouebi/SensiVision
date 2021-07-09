@@ -56,19 +56,19 @@ const Navbar = () => {
             </Container1_1>
             <Container1_2>
                 <Page>
-                    <Link href="#accueil">
+                    <Link href="/#accueil">
                         Accueil
                     </Link>
                 </Page>
                 <Page>
-                    <Link href="#intervenants">
+                    <Link href="/#intervenants">
                     <Page>
                         A propos
                         </Page>
                     </Link>
                 </Page>
                 <Page>
-                    <Link href="#nos_partenaires">
+                    <Link href="/#nos_partenaires">
                         Nos partenaires
                     </Link>
                 </Page>
