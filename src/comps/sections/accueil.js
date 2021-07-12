@@ -17,7 +17,7 @@ const Accueil = () => {
               </div>
             </div>
             <div className={styles.undertitle2}>
-                Adresse du festival ...
+                Terrain de cricket, Parc de Vincennes 75012 Paris
             </div>
             <div className={styles.container1_2}>
                 <div className={styles.button1}>
